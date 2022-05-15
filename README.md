@@ -1,3 +1,7 @@
+# PridePunks 2018
+
+This is the open source repo for Pride Punks 2018 front end. It is based on Redwood JS, to start it, follow the below instructions.
+
 # Redwood
 
 > **NOTICE:** RedwoodJS is very close to a stable version 1.0. In the last two years,
