@@ -9,7 +9,7 @@
   title = "Redwood App"
   port = 8910
   apiUrl = "/.netlify/functions"
-  includeEnvironmentVariables = ['INFURA_ID','MPC_ADDRESS','EXTERNAL_WL','ALCHEMY_ID','ETHERSCAN','CLAIM_ADDRESS','DAO_TOKEN'] # any ENV vars that should be available to the web side, see https://redwoodjs.com/docs/environment-variables#web
+  includeEnvironmentVariables = ['INFURA_ID','MPC_ADDRESS','EXTERNAL_WL','ALCHEMY_ID','ETHERSCAN','CLAIM_ADDRESS','DAO_TOKEN', 'GA_ID'] # any ENV vars that should be available to the web side, see https://redwoodjs.com/docs/environment-variables#web
 [api]
   port = 8911
 [browser]

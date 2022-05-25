@@ -9,15 +9,15 @@
 
 import { Router, Route, Set } from '@redwoodjs/router'
 import HomeLayout from './layouts/HomeLayout/HomeLayout'
-
+import ReactGA from 'react-ga'
 
 const Routes = () => {
-
   return (
     <Router>
       <Set wrap={HomeLayout}>
-      <Route path="/stewards" page={ClaimAndDelegatePage} name="claimAndDelegate" />
-      <Route path="/claim" page={ClaimPage} name="claim" />
+        {ReactGA.pageview(window.location.pathname + window.location.search)}
+        <Route path="/stewards" page={ClaimAndDelegatePage} name="claimAndDelegate" />
+        <Route path="/claim" page={ClaimPage} name="claim" />
         {/* <Route path="/admin" page={AdminPage} name="admin" /> */}
         <Route path="/gallery" page={GalleryPage} name="gallery" />
         {/* <Route path="/mint" page={MintPage} name="mint" /> */}

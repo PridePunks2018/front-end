@@ -3,6 +3,7 @@ import { RedwoodApolloProvider } from '@redwoodjs/web/apollo'
 import { MetaTags } from '@redwoodjs/web'
 import FatalErrorPage from 'src/pages/FatalErrorPage'
 import Routes from 'src/Routes'
+import ReactGA from 'react-ga'
 
 import { ChakraProvider, Flex, Image } from '@chakra-ui/react'
 import {
@@ -75,6 +76,8 @@ const webSocketProvider = ({ chainId }: ProviderConfig) =>
   isChainSupported(chainId)
     ? new providers.InfuraWebSocketProvider(chainId, infuraId)
     : undefined
+
+ReactGA.initialize(process.env.GA_ID)
 
 const App = () => {
   return (
