@@ -423,10 +423,6 @@ const NAV_ITEMS: Array<NavItem> = [
         href: '/claim',
       },
       {
-        label: 'Stewards',
-        href: '/stewards',
-      },
-      {
         label: 'Pride Punk DAO on Tally',
         href: 'https://www.withtally.com/governance/eip155:1:0x80BAE65E9D56498c7651C34cFB37e2F417C4A703',
         isExternal: true,
