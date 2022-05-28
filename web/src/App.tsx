@@ -77,9 +77,10 @@ const webSocketProvider = ({ chainId }: ProviderConfig) =>
     ? new providers.InfuraWebSocketProvider(chainId, infuraId)
     : undefined
 
-ReactGA.initialize(process.env.GA_ID)
 
 const App = () => {
+ReactGA.initialize(process.env.GA_ID)
+
   return (
     <Provider
       autoConnect
