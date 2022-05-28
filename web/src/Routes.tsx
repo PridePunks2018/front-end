@@ -12,10 +12,11 @@ import HomeLayout from './layouts/HomeLayout/HomeLayout'
 import ReactGA from 'react-ga'
 
 const Routes = () => {
+  ReactGA.pageview(window.location.pathname + window.location.search)
+
   return (
     <Router>
       <Set wrap={HomeLayout}>
-        {ReactGA.pageview(window.location.pathname + window.location.search)}
         <Route path="/stewards" page={ClaimAndDelegatePage} name="claimAndDelegate" />
         <Route path="/claim" page={ClaimPage} name="claim" />
         {/* <Route path="/admin" page={AdminPage} name="admin" /> */}
