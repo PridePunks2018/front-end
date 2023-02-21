@@ -178,10 +178,7 @@ export default function Hero() {
                 </Text>
               </Flex>
               <Box>
-                <Link
-                  href="https://opensea.io/collection/pridepunks2018"
-                  isExternal
-                >
+                <Link href="https://pridepunks2018.wlbl.xyz/" isExternal>
                   <Button
                     marginBottom={'30px'}
                     bgColor={'blue.400'}
@@ -189,7 +186,7 @@ export default function Hero() {
                     size={'lg'}
                     marginRight={'0.5em'}
                   >
-                    Buy on OpenSea
+                    Buy on Rarible
                   </Button>
                 </Link>
 

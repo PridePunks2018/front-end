@@ -394,8 +394,8 @@ const NAV_ITEMS: Array<NavItem> = [
         isExternal: true,
       },
       {
-        label: 'OpenSea',
-        href: 'https://opensea.io/collection/pridepunks2018',
+        label: 'View on Rarible',
+        href: 'https://pridepunks2018.wlbl.xyz/',
         isExternal: true,
       },
       {
