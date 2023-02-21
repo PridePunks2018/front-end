@@ -394,7 +394,7 @@ const NAV_ITEMS: Array<NavItem> = [
         isExternal: true,
       },
       {
-        label: 'View on Rarible',
+        label: 'Rarible',
         href: 'https://pridepunks2018.wlbl.xyz/',
         isExternal: true,
       },
