@@ -432,7 +432,8 @@ const NAV_ITEMS: Array<NavItem> = [
 
   {
     label: 'Gallery',
-    href: '/gallery',
+    href: 'https://pridepunks2018.wlbl.xyz/',
+    isExternal: true,
   },
   {
     label: 'Tools',
