@@ -404,6 +404,11 @@ const NAV_ITEMS: Array<NavItem> = [
         isExternal: true,
       },
       {
+        label: 'Ordinals',
+        href: 'https://magiceden.io/ordinals/marketplace/pridepunks',
+        isExternal: true,
+      },
+      {
         label: 'Disclaimer',
         href: 'https://pridepunks.notion.site/Disclaimer-TOS-584bc6e440994dc981e589b0f38f6db0',
         isExternal: true,
